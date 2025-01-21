@@ -21,6 +21,26 @@
     margin: 0 auto;
   }
   /* colour */
+  .bg-oliv{
+    background-color: #95B226;
+    margin-left: 2.25rem;
+    margin-top: -2rem;
+    position: relative;
+    top: -1rem;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  .bg-blue{
+    background-color: blue;
+    margin-left: 2.25rem;
+    margin-top: -2rem;
+    position: relative;
+    top: -1rem;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+  }
   .skyblue{
     color: #01ACFD;
   }
@@ -225,6 +245,7 @@
     border-radius: 50%;
     justify-content: center;
     align-items: center;
+    margin-top: 4rem;
   }
   .greater-than{
     height: 60px;
@@ -232,6 +253,7 @@
     border-radius: 50%;
     justify-content: center;
     align-items: center;
+    margin-top: 4rem;
   }
   .border-dashed{
     margin: 4rem 0;
@@ -249,3 +271,100 @@
         display: none;
     }
   }
+  /* Stories Section start */
+  .story-bg{
+    background-color: rgba(254, 163, 1, 1);
+  }
+  .stories-section{
+    background-image: url(./assets/bg.png);
+    
+  }
+  .stories-section h1{
+    text-align: center;
+    margin-bottom: 5rem;
+    font-weight: bold;
+    font-size: 2.8rem;
+  }
+  .box-grid{
+    display: grid;
+    gap: 40px;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .box{
+    background-color: #fff;
+    border-radius: 15px;
+  }
+  .box img{
+    border-radius: 15px 15px 0px 0px;
+  }
+ .box-1{
+  grid-row: span 2;
+  border-radius: 15px;
+  background-color: #fff;
+ }
+ .box-1 img{
+  border-radius: 15px 15px 0px 0px;
+ }
+
+ .box-1>button{
+  background-color: #3CD8E8;
+ }
+ .bg-skyblue{
+  background-color: #3CD8E8;
+  margin-left: 2.25rem;
+  margin-top: -2rem;
+  position: relative;
+  top: -1rem;
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.box-1 h1{
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-align: left;
+  margin-left: 2.25rem;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+ }
+.box-1 p{
+  font-size: 1rem;
+  font-weight: 600;
+  color: #666666;
+  width: 433px;
+  margin-left: 2.25rem;
+  margin-bottom: 2rem;
+}
+.box h1{
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 0px;
+  padding: 20px;
+  text-align-last: left;
+}
+.story-heading{
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.view-btn{
+  color: white;
+  background-color: black;}
+  
+.btn{
+  justify-content: center;
+  margin-top: 5rem;
+  padding-bottom: 4rem;
+}
+/* our stories responsive */
+@media screen and (max-width:576px) {
+  .story-bg{
+    width: 550px;
+    margin: 0 auto;
+  }
+  .box-grid{
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .box-1{
+    display: none;
+  }
+}
