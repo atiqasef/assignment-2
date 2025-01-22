@@ -382,3 +382,138 @@
   }
   
 }
+/* Footer Section Start */
+.footer{
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+  top: 0;
+  height: 519px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-bg{
+  display: flex;
+  gap: 6rem;
+  justify-content: center;
+  align-items: center;
+}
+.footer-logo{
+  width: 33%;
+}
+.footer-menu{
+  width: 33%;
+  margin-top: -27px;
+}
+.footer-social{
+  width: 33%;
+}
+.footer-up-work{
+  margin-bottom: 35px;
+}
+.footer-up-work h1{
+  margin-left: 10px;
+}
+.footer-logo p{
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+.f-menu{
+  text-align: center;
+}
+.f-menu ul{}
+.f-menu ul li{
+  list-style: none;
+  margin: 1.25rem 0;
+}
+.f-menu ul li a{
+  text-decoration: none;
+  color: white;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+.footer-menu h2{
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.footer-social{
+  position: relative;
+  bottom: 4.5rem;
+  text-align: center;
+}
+.footer-social h3{
+font-weight: bold;
+font-size: 26px;
+}
+.footer-icon{
+margin-left: 4rem;
+margin-top: 2rem;
+}
+.footer-icon i{
+  margin-right: 10px;
+  height: 40px;
+  width: 40px;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.misty{
+  background-color: #EA4C89;
+}
+.bg-red{
+  background-color: red;
+}
+.bg-bluee{
+  background-color: rgba(9, 182, 234, 0.517);
+}
+.bg-nil{
+  background-color: blue;
+}
+/* footer Section Responsive */
+@media screen and (max-width:576px) {
+  .footer{
+    width: 1168px;
+    flex-direction: column;
+    height: 700px;
+  }
+  .footer-bg{
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+  }
+  .footer-logo{
+    padding-top: 75px;
+    margin-left: 1rem;
+  }
+  .footer-menu{
+    
+  }
+  .footer-menu h2{
+    text-align: left;
+    margin-left: 1rem;
+  }
+  .f-menu{
+    text-align: left;
+    margin-left: 1rem;
+  }
+  .footer-social h3{
+    text-align: left;
+    margin-left: 1rem;
+  }
+  .footer-icon{
+    text-align: left;
+    margin-left: 1rem;
+  }
+  .footer-logo{
+    width:357px;
+  }
+  .footer-menu{
+    width: 100%;
+  }
+  .footer-social{
+    width: 100%;
+  }
+}
