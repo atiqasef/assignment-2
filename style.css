@@ -286,6 +286,7 @@
     
   }
   .stories-section h1{
+    padding-top: 60px;
     margin-top: -15px;
     text-align: center;
     margin-bottom: 5rem;
@@ -333,7 +334,7 @@
   font-size: 1.5rem;
   text-align: left;
   margin-left: 2.25rem;
-  margin-top: 2rem;
+  margin-top: -3rem;
   margin-bottom: 3rem;
  }
 .box-1 p{
@@ -382,7 +383,7 @@
   }
   .box{
     height: 250px;
-    margin: 40px;
+    margin: 10px;
   }
   .box img{
     width: 100%;
@@ -391,7 +392,7 @@
   .view-btn{
     position: relative;
     left: 20rem;
-    
+    top: 30px;
   }
   
 }
