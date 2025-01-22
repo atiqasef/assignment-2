@@ -148,6 +148,7 @@
     header{
         max-width: 560px;
         margin: 0 auto;
+        background-color: #fff !important;
     }
     .main-menu{
         margin: 0 1rem;
@@ -180,7 +181,7 @@
         
     }
     .hero-heading{
-        
+       
     }
   }
   /* Curriculum section start */
@@ -261,6 +262,9 @@
   }
   /* Curriculum Section Responsive */
   @media screen and (max-width:576px) {
+    .curriculum-bg{
+      background-color: #fff !important;
+    }
     .curriculum-card{
         flex-direction: column;
     }
@@ -359,12 +363,22 @@
 @media screen and (max-width:576px) {
   .story-bg{
     width: 550px;
-    margin: 0 auto;
+    background-color: #fff;
   }
+ 
   .box-grid{
     grid-template-columns: repeat(2, 1fr);
   }
   .box-1{
     display: none;
   }
+  .box img{
+    width: 100%;
+  }
+  .view-btn{
+    position: relative;
+    left: 20rem;
+    
+  }
+  
 }
